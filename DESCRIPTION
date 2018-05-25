@@ -1,0 +1,38 @@
+Package: imprint
+Type: Package
+Title: Create Customized 'ggplot2' and 'R Markdown' Themes for Your Organization
+Version: 0.1.0
+Date: 2018-05-24
+Authors@R: c(
+    person("Austin", "Wehrwein", role = c("aut")),
+    person("Bob", "Rudis", email = "bob@rud.is", role = c("aut", "cre"), 
+           comment = c(ORCID = "0000-0001-5670-2640"))
+  )
+Maintainer: Bob Rudis <bob@rud.is>
+Description: Create customized 'ggplot2' and 'R Markdown' themes for your organization.
+URL: https://github.com/hrbrmstr/imprint
+BugReports: https://github.com/hrbrmstr/imprint/issues
+Encoding: UTF-8
+License: MIT + file LICENSE
+Suggests:
+    testthat,
+    gridExtra,
+    clipr,
+    vdiffr,
+    svglite
+Depends:
+    R (>= 3.2.0)
+Imports:
+    ggplot2 (>= 2.2.1),
+    grDevices,
+    grid,
+    scales,
+    extrafont,
+    knitr,
+    swatches,
+    rmarkdown,
+    htmltools,
+    tools,
+    magrittr,
+    shiny
+RoxygenNote: 6.0.1.9000
