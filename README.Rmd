@@ -4,6 +4,8 @@ output: rmarkdown::github_document
 
 # imprint
 
+Create Customized 'ggplot2' and 'R Markdown' Themes for Your Organization
+
 ## Description
 
 ## What's Inside The Tin
